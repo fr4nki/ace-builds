@@ -15692,7 +15692,7 @@ var Marker = function(parentEl) {
         this.config = config;
 
         this.i = 0;
-        var html;
+        var html = [];
         for (var key in this.markers) {
             var marker = this.markers[key];
 
